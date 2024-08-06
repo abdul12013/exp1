@@ -1,0 +1,97 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+
+    background-image: url("/images/login.jpg");
+    position: relative;
+    top: 15vh;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    position: relative;
+    bottom: 4vh;
+    left: 1vw;
+    font-size: 2.20vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: transparent;
+    width: 10vw;
+    height: 5vh;
+    border: 2px solid azure;
+    border-radius: 8px;
+
+}
+
+::placeholder {
+    color: #99ff22;
+    position:relative;
+    left: 5px;
+    font-family:
+        Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#password {
+    position: relative;
+    top: 1vh;
+     left: 1vw;
+    font-size: 2.20vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: transparent;
+    width: 10vw;
+    height: 5vh;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: black;
+}
+
+.heading {
+    font-family: cursive;
+    position: relative;
+    bottom: 31%;
+    left: 8vw;
+}
+
+#submit {
+    position: absolute;
+    bottom: 9vh;
+    left: 7vw;
+    width: 6vw;
+    height: 2.50vw;
+    background: transparent;
+    border: 2px solid orangered;
+    border-radius: 12px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: cursive;
+    color: chocolate
+}
+p{
+   position: absolute;
+   font-family: cursive;
+   top:43vh;
+   left:25%;
+    padding: 1px;
+    margin: 4px;
+
+font-family: Tahoma;
+}
+a{
+    position: absolute;
+}
+::-moz-focus-inner{
+    background: transparent;
+}

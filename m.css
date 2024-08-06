@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color:whitesmoke;
+}
+.heading1{
+    text-align: center;
+    font-size:1.80vw;
+    background-image: url("/images/pizza.png");
+    background-repeat: no-repeat;
+    background-position:center ;
+    color: transparent;
+    font-family:cursive;
+    padding: 0;
+    background-clip: text;}
+.main{
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content:center;
+    align-items: center;
+    position:relative;
+    top: 5vh;
+    left: 25vw;
+    height:68vh;
+    width: 50vw;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+    /* border: 2px solid black ; */
+    /* border-radius: 2vw; */
+}
+img{
+    height: 68.40vh;
+    /* width: 40vw; */
+}
+
+.left{
+  
+    position: relative;
+    display: flex;
+    align-items: center;
+    word-spacing: 2vh;
+    justify-content: center;
+    left: 0.1vw;
+    height:68vh;
+    width: 25vw;
+  
+    /* border-bottom-right-radius:2vw ; */
+    /* border-top-right-radius: 2vw; */
+    background-color:white;
+
+}
+.heading2{
+  position: absolute ;
+  left: 5vw;
+  /* width: 10vw; */
+  bottom :25vw;
+color: black;
+font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#fullname{
+position: relative;
+bottom: 8vh;
+left: 4vw;
+font-size: 2.20vh;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background: transparent;
+
+border:none;
+border-bottom: 1px solid antiquewhite;
+outline: none;
+height: 4vh;
+width: 12vw;
+color: black;
+
+}
+
+#email{
+    position: relative;
+    bottom: 3vh;
+    left: 4vw;
+    font-size: 2.20vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: transparent;
+    
+    border:none;
+    border-bottom: 1px solid antiquewhite;
+    outline: none;
+    height: 4vh;
+    width: 12vw;
+    color: black;
+    
+    }
+
+    #password{
+        position: relative;
+        bottom: 2vh;
+        left: 4vw;
+        font-size: 2.20vh;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background: transparent;
+        
+        border:none;
+        border-bottom: 1px solid antiquewhite;
+        outline: none;
+        height: 4vh;
+        width: 12vw;
+        color: black;
+        
+        }
+
+        #email{
+            position: relative;
+            bottom: 6vh;
+            right: 4vw;
+            font-size: 2.20vh;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: transparent;
+            
+            border:none;
+            border-bottom: 1px solid antiquewhite;
+            outline: none;
+            height: 4vh;
+            width: 12vw;
+            color: black;
+            
+            }
+
+            #number{
+                position: relative;
+                top: 1vh;
+                left: 4vw;
+                font-size: 2.20vh;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background: transparent;
+                
+                border:none;
+                border-bottom: 1px solid antiquewhite;
+                outline: none;
+                height: 4vh;
+                width: 12vw;
+                color: black;
+                
+                }
+
+#submit{
+    position: absolute;
+    bottom:15vh;
+    left: 7vw;
+    width: 6vw;
+    height: 2.50vw;
+    background: burlywood;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: cursive;
+    color:white;
+}
